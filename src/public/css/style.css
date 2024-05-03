@@ -2,7 +2,7 @@
 
 /* imagen de fondo de la página */
 
-body{
+.page{
     background-color: rgb(238,174,202);
     background-size: cover;
     background-repeat: no-repeat;
