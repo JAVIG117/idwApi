@@ -1,14 +1,4 @@
- /* CSS DE JAVI */
-
-/* imagen de fondo de la página */
-
-.page{
-    background-color: rgb(238,174,202);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: scroll;
-}
+ /* CSS DE JAVIER GIMENEZ */
 
 
 
@@ -27,7 +17,7 @@
 }
 
  /* características del título (H1) */
-.titulo{
+.titulo {
     font-size: 50px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
@@ -44,7 +34,7 @@
  /* posición del botón volver */
 .volver{
     position: absolute;
-    top: 60px;
+    top: 80px;
     bottom:0 ;
     right:0 ;
     left:20px;
@@ -85,6 +75,20 @@
     color: #ff0090;
     text-align: center;
 }
+
+.pie{
+    background-color: #000;
+    height: 20px;
+}
+
+.pie p{
+    color: #fff;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+
 
  /* -------------------------------------------------------------------------*/
 
