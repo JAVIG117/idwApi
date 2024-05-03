@@ -1,0 +1,230 @@
+ /* CSS DE JAVIER GIMENEZ */
+
+
+
+/* color del header*/
+.cabecera{
+    width: 100%;
+    background-color:#db6196;
+    padding: 20px 0; /* Espacio interno arriba y abajo */
+    margin-bottom: 20px;
+
+}
+
+
+ /* posición de la cabecera */
+.cabecera{
+    position: relative;
+}
+
+ /* características del título (H1) */
+.titulo {
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-style: italic;
+}
+
+
+ /* tamaño del botón volver */
+ .volver img{
+    width: 32px;
+    height: auto;
+  }
+
+ /* posición del botón volver */
+.volver{
+    position: absolute;
+    top: 80px;
+    bottom:0 ;
+    right:0 ;
+    left:20px;
+}
+
+
+
+
+ /* ancho del contenedor */
+.contenedor{
+    
+    width: 100%;
+    position: relative;
+    
+}
+
+.columna {
+    background-color: #fff;
+    margin-bottom: 20px;
+    border:1px solid #000;
+}
+
+
+ /* tipografia,alineación y tamaño de los párrafos */
+    
+.columna p {
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding:5px;
+    line-height: 1.5; /* espacio entre textos*/
+}
+
+
+.columna h2 {
+    font-style: italic;
+    font-size: 25px;
+    color: #ff0090;
+    text-align: center;
+}
+
+.pie{
+    background-color: #000;
+    height: 20px;
+}
+
+.pie p{
+    color: #fff;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+/* -------------------------------------------------------------------------*/
+
+/*Parte de Nerina Bonnin*/
+.logo {
+    border-radius: 50%;
+}
+
+h1{
+    color:crimson;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight:700;
+    font-size: 40px;
+    padding: 20px;
+
+}
+
+h2{
+    text-align:center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 300;
+    margin: 0px;
+    padding: 20px;
+    background-color: rgb(229, 212, 221);
+    opacity: 0.7;
+}
+
+nav{
+    background-color: #ffe7e7;
+}
+
+nav ul{
+    list-style-type: none ;
+    padding: 0px;
+    margin: 20px;
+    text-align: center;
+}
+
+nav ul li{
+    color: brown;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 15px;
+    display: inline-block;
+    margin-right: 70px;
+}
+
+
+nav ul li a:hover{
+    background-color:aqua;
+    transform: scale(1.1);
+
+}
+
+.imagen{
+    margin: 10px ;
+    padding: 10px;
+    text-align: center;
+}
+
+img {
+    display: inline-block;
+}
+
+body {
+        background-image: url("../img/foto\ 3\(es\ la\ opcion\).jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+}
+
+.portada{
+    width: 200px;
+    height: 200px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px; 
+    line-height: 1.5;
+    margin-top: 60px; 
+}
+
+footer {
+    color: #fff; 
+    font-size: 14px;
+}
+
+footer {
+    border-top: 1px solid #ccc; 
+    box-shadow: 0px -3px 5px rgba(0, 0, 0, 0.1);
+}
+
+/*APARTADO DE RESERVAS*/
+.contenido {
+    text-align: center; 
+}
+
+.elemento{
+    display: inline-block;
+  margin-right: 100px; 
+}
+
+.contenido h3{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #FFB1B1;
+}
+
+
+
+
+
+
+
+
+/* -------------------------------------------------------------------------*/
+
+/*Parte de Marco Gabriel Wendler*/
+
+.formulario {
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 10px;
+    box-shadow: 0 0 0 2px #696868;
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+    max-width: 400px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
